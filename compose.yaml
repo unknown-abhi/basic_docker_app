@@ -1,1 +1,6 @@
+version: '3'
 services:
+  basic-app:
+    build: .
+    ports:
+      - "8050:8080"
