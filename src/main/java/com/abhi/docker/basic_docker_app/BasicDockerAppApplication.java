@@ -8,7 +8,7 @@ public class BasicDockerAppApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BasicDockerAppApplication.class, args);
-		System.out.println("Hello World!");
+		System.out.println("Application Started");
 	}
 
 }
